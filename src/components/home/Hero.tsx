@@ -26,9 +26,12 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-4xl"
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 lg:mb-8 leading-tight">
-            Designing Spaces. Defining Quality.
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 lg:mb-6 leading-tight">
+            Twyford
           </h1>
+          <p className="text-xl sm:text-2xl lg:text-3xl text-gray-200 mb-4 lg:mb-6 leading-relaxed">
+            Designing Spaces. Defining Quality.
+          </p>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-6 lg:mb-8 leading-relaxed">
             Discover exceptional tile and sanitary ware solutions designed to transform modern spaces.
           </p>
