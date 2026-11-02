@@ -29,8 +29,11 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 lg:mb-8 leading-tight">
             Designing Spaces. Defining Quality.
           </h1>
-          <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-8 lg:mb-10 leading-relaxed">
+          <p className="text-lg sm:text-xl lg:text-2xl text-gray-200 mb-6 lg:mb-8 leading-relaxed">
             Discover exceptional tile and sanitary ware solutions designed to transform modern spaces.
+          </p>
+          <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-8 lg:mb-10">
+            Call Us: 0739412906
           </p>
           <div className="flex flex-col sm:flex-row gap-4 lg:gap-5">
             <Link href="/products">
