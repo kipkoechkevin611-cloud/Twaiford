@@ -38,7 +38,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           />
         </div>
         <div className="p-5 flex flex-col flex-grow">
-          <p className="text-sm text-gray-500 mb-2">{product.category}</p>
+          <p className="text-sm text-gray-500 mb-2 whitespace-nowrap">{product.category}</p>
           <h3 className="text-base font-semibold text-gray-900 mb-3 line-clamp-2 leading-snug">
             {product.name}
           </h3>

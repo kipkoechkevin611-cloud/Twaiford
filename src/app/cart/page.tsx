@@ -106,7 +106,7 @@ export default function CartPage() {
                       />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm text-blue-600 mb-2">
+                      <p className="text-sm text-blue-600 mb-2 whitespace-nowrap">
                         {item.product.category}
                       </p>
                       <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2 lg:mb-3 line-clamp-2">

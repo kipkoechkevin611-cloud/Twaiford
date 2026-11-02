@@ -69,7 +69,7 @@ export default function ProductDetailClient({ product }: { product: Product }) {
 
               {/* Product Info */}
               <div>
-                <p className="text-sm sm:text-base text-blue-600 font-medium mb-3">
+                <p className="text-sm sm:text-base text-blue-600 font-medium mb-3 whitespace-nowrap">
                   {product.category}
                 </p>
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 lg:mb-6">
